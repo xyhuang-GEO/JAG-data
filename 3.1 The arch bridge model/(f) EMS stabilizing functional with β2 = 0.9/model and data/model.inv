@@ -1,0 +1,17 @@
+1 /inversion_option,1:LBFGS;2:Multigrid
+
+4 /mNorm_option,1:FM;2:MS;3:MSG;4:EMS;5:Wt;6:sht;7:ETV
+
+0.1,0.9  /epsilon,beta
+
+200/maxIter
+
+1.0 /rms_tol
+
+100 /lambda
+
+0.1 /k
+
+0.01 /fidfftol,If (rms-rmsprev) < fidfftol, update lambda
+
+1.E-4 /lambda_tol
